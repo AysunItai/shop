@@ -26,7 +26,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/alertifyjs/build/alertify.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "shop"
+    }
+  },
+  "defaultProject": "shop",
+  "cli": {
+    "analytics": "c808f908-f341-478b-9d70-9ade7627d3f8"
+  }
 }
